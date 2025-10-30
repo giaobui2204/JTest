@@ -1,0 +1,25 @@
+{
+  "assignmentId": "hw1",
+  "version": 1,
+  "cases": [
+    {
+      "name": "Echo",
+      "stdin": "hello\n",
+      "expected": "hello\n",
+      "timeoutMs": 2000,
+      "normalize": {
+        "trim": false
+      }
+    },
+    {
+      "name": "Add",
+      "stdin": "2 3\n",
+      "expected": "5\n",
+      "timeoutMs": 2000,
+      "normalize": {
+        "trim": true,
+        "collapseWs": true
+      }
+    }
+  ]
+}
